@@ -1,0 +1,62 @@
+body {
+    background-color: #6A90F3;
+}
+
+.container {
+    background-color: snow;
+    width: 600px;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 1px;
+    margin-top: 30px;
+}
+
+.header {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: #6A90F3;
+}
+
+.uploader-box {
+    border-style: dashed;
+    border-color: #6A90F3;
+    border-radius: 10px;
+    margin: 20px 50px;
+}
+
+.uploader-box:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.uploader-text {
+    font-size: 30px;
+    color: #6A90F3;
+}
+
+.uploading-files {
+    background-color: #E9F0FE;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin: 15px 50px 10px 50px;
+}
+
+.uploading-docs {
+    float: left;
+    margin-left: 5px;
+}
+
+.uploading-text {
+    font-size: 22px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.uploading-check {
+    float: right;
+    margin-right: 10px;
+}

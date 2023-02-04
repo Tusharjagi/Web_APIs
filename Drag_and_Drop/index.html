@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet" />
+    <title>File Uploader</title>
+</head>
+
+<body>
+    <div class="container" id="dropzone" >
+        <h1 class="header">File Uploader </h1>
+        <div class="uploader-box" >
+            <form class="form">
+                <input type="file" class="input" hidden />
+            </form>
+            <img class="uploader-image" src="./assets/upload.png" alt="upload_box" height="180px" width="200px" />
+            <div>
+                <p class="uploader-text">
+                    Browse file to upload
+                </p>
+            </div>
+        </div>
+        <!-- Status uploading -->
+        <div class="uploading-files">
+            <img class="uploading-docs" src="./assets/docs.png" width="40px" height="40px" />
+            <span class="uploading-text">
+                image-1.jpg
+            </span>
+            <img class="uploading-check" src="./assets/check.png" width="40px" height="40px" />
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+
+</html>
